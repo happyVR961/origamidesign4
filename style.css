@@ -1,0 +1,36 @@
+.header{
+    display:flex; 
+    justify-content: space-around;
+    background-color: #b5f8b5; 
+}
+p{
+    font-size: 20px;
+}
+.images{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-between;
+}
+ 
+body{
+    margin:0px;
+    background-color: #E3E3D9
+    
+}
+.pigeon{
+    margin-right: 80px;
+}
+.pigeon p{
+    color:rgb(45, 65, 6);
+    position: relative;
+    top: -40%;
+    left:50%;
+    opacity:0;
+    transform: translate(-50%,-50%);
+}
+.pigeon:hover p{
+    opacity:1;
+}
+.pigeon:hover img{
+    opacity:0.33;
+}
